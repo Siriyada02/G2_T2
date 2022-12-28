@@ -1,0 +1,94 @@
+table,
+td {
+    border: 1px solid #6ab04c;
+    background-color: #fff;;
+    margin-left: auto;
+    margin-right: auto;
+    text-size-adjust: 10px;
+    text-align: center;
+}
+thead,
+tfoot {
+    background-color: #6ab04c;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-color: #87CEFA;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .BT {
+    display: flex;
+  }
+ 
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #6ab04c;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  main {
+    background-color: #cfe0e9;
+    color: white;
+    text-align: center;
+  }
+  
+  form {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label1 {
+    margin: 10px 0;
+  }
+  form label2{
+    margin: 10px 0;
+  }
+  form label3{
+    margin: 10px 0;
+  }
+  
+  form input, form select {
+    width: 150px;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 14px;
+    padding: 0 10px;
+  }
+  
+  form button {
+    width: 150px;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 14px;
+    background-color: #6ab04c;
+    color: white;   
+    border-radius: 14px;
+  }  
+  div button {
+    width: 150px;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 14px;
+    background-color: #6ab04c;
+    color: white;   
+  }  
+  

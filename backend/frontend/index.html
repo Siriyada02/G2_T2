@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Test Call API For Frontend </title>
+            <link rel="stylesheet" href="styles.css">
+            <header><h1>Test Exchange Rate</h1></header>
+        </head>
+        <body>
+            
+            <form id="form">
+                <label1 for="text">STORE CODE:</label1>
+                <input type="text" id="STORE" name = "name">
+                <label2 for="text">PRODUCT CODE:</label2>
+                <input type="text" id="PROD" name = "name">
+
+                <label3 >CURRENCY :</label3>
+                <select id="CURRENCY">
+                    <div id="AA">
+                    <option>Select Currency</option>
+                    <option value="CNY">CNY</option>
+                    <option value="KHR">KHR</option>
+                    <option value="LAK">LAK</option>
+                </select>
+                <div buttom = "BT">
+                <button type="button" id="SEARCH" onclick="checkTextBox()"  >Search</button>
+                <button type="reset" id="CLEAR" onclick="checkTextBox()" >Clear</button>
+                <button type="button" id="GetTable" >Show View-history</button>
+                
+                <script>
+                
+            
+                
+                
+                    function checkTextBox() {
+                        var storeCode = document.getElementById("STORE");
+                        var prodCode = document.getElementById("PROD");
+                        var currency = document.getElementById("CURRENCY");
+
+                        if (storeCode.value == "") {
+                            alert("Please enter a value in the STORE CODE field.");
+                                }
+                        if (prodCode.value == "") {
+                            alert("Please enter a value in the PRODUCT CODE field.");
+                                }
+                        if (currency.value == "Select Currency") {
+                            alert("Please select a currency from the CURRENCY dropdown menu.");
+                    }
+                }
+                    </script>
+            </div>
+                </div>
+
+                <table>
+                    <thead id="bb">
+                    <tr>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+                <div id="cc">
+                    <a id="a"></a>
+                </div>
+            </form>
+            <script src="API.js"></script>
+        </body>
+    </html>
